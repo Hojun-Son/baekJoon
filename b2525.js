@@ -1,3 +1,5 @@
+//오븐시계 문제(if문 활용)
+
 const readline = require("readline");
 
 const rl = readline.createInterface({
