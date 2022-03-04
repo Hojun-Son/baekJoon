@@ -13,5 +13,12 @@ rl.on("line", function (line) {
   for (let i = 1; i <= number; i++) {
     console.log("*".repeat(i));
   }
+////////////////////////////////// 다른 풀이
+//   let star = "";
+// for (let i = 0; i < input; i++) {
+//   star += "*"
+//   console.log(star); 
+// }
+///////////////////////////////////
   process.exit();
 });
