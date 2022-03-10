@@ -21,3 +21,35 @@ rl.on("line", function (line) {
 
   process.exit();
 });
+
+///////////////////////////////////// 다른풀이
+// const readline = require("readline");
+
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+// let num = [];
+// rl.on("line", function (line) {
+//   num.push(line);
+// }).on("close", function () {
+//   let count = Number(num[0]);
+//   let fakeNumbers = num[1].split(" ");
+//   let numbers = fakeNumbers.map(Number);
+
+//   let max = numbers[0];
+//   let min = numbers[0];
+
+//   for (let i = 1; i < count; i++) {
+//     if (max < numbers[i]) {
+//       max = numbers[i];
+//     }
+
+//     if (min > numbers[i]) {
+//       min = numbers[i];
+//     }
+//   }
+
+//   console.log(`${min} ${max}`);
+//   process.exit();
+// });
