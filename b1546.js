@@ -1,4 +1,5 @@
 //평균
+//점수 조작하는 문제
 const readline = require("readline");
 
 const rl = readline.createInterface({
