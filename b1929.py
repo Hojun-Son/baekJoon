@@ -1,4 +1,4 @@
-# 소수
+# 소수 
 x, y = map(int, input().split())
 
 for i in range(x, y+1):
