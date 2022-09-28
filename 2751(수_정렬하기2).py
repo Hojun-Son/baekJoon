@@ -2,6 +2,8 @@ import sys
 input=sys.stdin.readline
 ##################################백준에서 이거 안쓰면 시간초과 뜸
 
+##알고리즘 : 병합정렬##
+
 n=int(input())
 unsorted_list = []
 for _ in range(0,n):
