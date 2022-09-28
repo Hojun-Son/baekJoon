@@ -1,13 +1,24 @@
 import sys
 input = sys.stdin.readline
 
-N,k = int(input().split())
+n,k = map(int,input().split())
+print(sorted(map(int,input().split()), reverse=True)[k-1])
+
+
+
+
+
+
+##################################내 풀이
+
+N,k = map(int, input().split())
 score_list = []
-for i in range(N):
-	score_list.append(int(input().split()))
+score_list += map(int, input().split())
+
 j = 0
 score_list.sort(reverse=True)
 for score in score_list:
     if j<k:
-        print(score)
         j += 1
+        if j == k :
+            print(score)
