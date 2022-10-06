@@ -1,3 +1,9 @@
+nums = list(map(int, input()))
+nums.sort(reverse=True)
+for i in nums:
+    print(i, end='')
+
+
 ##########################내풀이
 import sys
 input = sys.stdin.readline
