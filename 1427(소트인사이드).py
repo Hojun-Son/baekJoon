@@ -1,3 +1,16 @@
+############################ 권장
+import sys
+input = sys.stdin.readline
+
+nums = input()
+nums = [int(n)  for n in nums]
+
+ordered_nums = sorted(nums, reverse=True)
+
+for n in ordered_nums : 
+    print(n, end="")
+    
+    
 ##########################내풀이
 import sys
 input = sys.stdin.readline
