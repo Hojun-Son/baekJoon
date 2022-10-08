@@ -1,0 +1,29 @@
+import sys
+
+N = int(sys.stdin.readline().strip())#이게 훨씬 빠름
+words = []
+
+for _ in range(N):
+    words.append(sys.stdin.readline().strip()) #\n 지워줘야함
+words = list(set(words))
+words.sort()
+words.sort(key=len)
+
+for i in words:
+    print(i)
+
+
+###################### 비교
+
+N = int(input())
+words = []
+
+for _ in range(N):
+    words.append(input())
+words = list(set(words))
+words.sort()
+words.sort(key=len)
+
+for i in words:
+    print(i)
+
